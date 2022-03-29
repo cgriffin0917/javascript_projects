@@ -1,17 +1,17 @@
 
 
-function griffin(data) {
+function getMonth(data1) {
 
     //var day = new Date(Date.now());
     //return day.getDate()
 
-    var data = data.toString()
+    var data = data1.toString()
 
     var month = data.slice(-2)
     console.log(month)
 }
 
-//griffin('2019-03')
+getMonth('2019-03')
 
 const subscription = new Object();
 subscription.id = 1234;
@@ -30,7 +30,7 @@ function dailyCost(subscription) {
 
 const customers = [
     {id:1, fname:'Courtland', lname:'Griffin', subscription:1 }, {id:2, fname:'Danica', lname:'Aniciete', subscription:2}, {id:3, fname:'Gaby', lname:'Pacurar', subscription: 3}
-]
+, {id:4, fname:'Camille', lname:'Griffin', subscription:3}]
 
 let type = customers[2]['subscription']
 
